@@ -1,0 +1,10 @@
+@url = http://localhost:3000
+
+POST {{url}}/admin/users/update-role
+Content-Type: application/json
+Cookie: connect.sid=s%3AIv4Fh_tjPENRyVgz7J9e6_S4JtboCm86.CPQFP5CFMb69w5n8oFj72jenD7xJOGCRFbybDSaTgYY
+
+{
+    "id": "63e47a677d76b86ccfe56dbf",
+    "role": "CONSULTANT"
+}
